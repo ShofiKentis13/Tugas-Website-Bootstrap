@@ -1,0 +1,1145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bootstrap 5 Full Cheatsheet</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+    body { padding: 30px; }
+    h2 { margin-top: 40px; }
+    code { background: #f8f9fa; padding: 2px 6px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1 class="text-center mb-4">Bootstrap 5 Full Cheatsheet</h1>
+<p class="text-center">Daftar class dan komponen Bootstrap 5 yang sering digunakan.</p>
+<hr>
+
+<h2>1. Colors</h2>
+<ul>
+  <li><code>.text-primary</code>, <code>.bg-primary</code></li>
+  <li><code>.text-secondary</code>, <code>.bg-secondary</code></li>
+  <li><code>.text-success</code>, <code>.bg-success</code></li>
+  <li><code>.text-danger</code>, <code>.bg-danger</code></li>
+  <li><code>.text-warning</code>, <code>.bg-warning</code></li>
+  <li><code>.text-info</code>, <code>.bg-info</code></li>
+  <li><code>.text-dark</code>, <code>.bg-dark</code></li>
+  <li><code>.text-light</code>, <code>.bg-light</code></li>
+</ul>
+
+<hr>
+<h2>2. Spacing</h2>
+<ul>
+  <li>Margin: <code>.m-0</code> sampai <code>.m-5</code></li>
+  <li>Padding: <code>.p-0</code> sampai <code>.p-5</code></li>
+  <li>Arah: <code>.mt-*</code>, <code>.mb-*</code>, <code>.ms-*</code>, <code>.me-*</code>, <code>.mx-*</code>, <code>.my-*</code></li>
+  <li><code>.px-*</code>, <code>.py-*</code></li>
+</ul>
+
+<hr>
+<h2>3. Typography</h2>
+<ul>
+  <li><code>.fw-bold</code>, <code>.fw-semibold</code>, <code>.fw-light</code></li>
+  <li><code>.fst-italic</code></li>
+  <li><code>.text-center</code>, <code>.text-start</code>, <code>.text-end</code></li>
+  <li><code>.lh-1</code>, <code>.lh-sm</code>, <code>.lh-lg</code></li>
+  <li><code>.text-uppercase</code>, <code>.text-lowercase</code>, <code>.text-capitalize</code></li>
+</ul>
+
+<hr>
+<h2>4. Layout & Grid</h2>
+<ul>
+  <li><code>.container</code>, <code>.container-fluid</code>, <code>.container-sm</code></li>
+  <li><code>.row</code></li>
+  <li><code>.col</code>, <code>.col-*</code>, <code>.col-sm-*</code>, <code>.col-md-*</code></li>
+  <li>Gap: <code>.gap-0</code> sampai <code>.gap-5</code></li>
+  <li>Display: <code>.d-flex</code>, <code>.d-grid</code>, <code>.d-none</code></li>
+  <li>Flex: <code>.justify-content-center</code>, <code>.align-items-center</code></li>
+</ul>
+
+<hr>
+<h2>5. Buttons</h2>
+<ul>
+  <li><code>.btn</code></li>
+  <li><code>.btn-primary</code>, <code>.btn-secondary</code>, <code>.btn-success</code></li>
+  <li><code>.btn-outline-primary</code></li>
+  <li><code>.btn-lg</code>, <code>.btn-sm</code></li>
+  <li><code>.btn-block</code> (gunakan <code>.w-100</code> di BS5)</li>
+</ul>
+
+<hr>
+<h2>6. Forms</h2>
+<ul>
+  <li><code>.form-control</code></li>
+  <li><code>.form-label</code></li>
+  <li><code>.form-select</code></li>
+  <li><code>.input-group</code></li>
+  <li><code>.form-check</code>, <code>.form-check-input</code>, <code>.form-check-label</code></li>
+</ul>
+
+<hr>
+<h2>7. Navbar</h2>
+<ul>
+  <li><code>.navbar</code></li>
+  <li><code>.navbar-brand</code></li>
+  <li><code>.navbar-nav</code>, <code>.nav-item</code>, <code>.nav-link</code></li>
+  <li><code>.navbar-expand-lg</code></li>
+  <li><code>.navbar-dark</code>, <code>.navbar-light</code></li>
+  <li><code>.bg-dark</code>, <code>.bg-light</code></li>
+</ul>
+
+<hr>
+<h2>8. Cards</h2>
+<ul>
+  <li><code>.card</code></li>
+  <li><code>.card-body</code></li>
+  <li><code>.card-title</code></li>
+  <li><code>.card-text</code></li>
+  <li><code>.card-header</code></li>
+  <li><code>.card-footer</code></li>
+  <li><code>.card-img-top</code></li>
+</ul>
+
+<hr>
+<h2>9. Tables</h2>
+<ul>
+  <li><code>.table</code></li>
+  <li><code>.table-striped</code></li>
+  <li><code>.table-hover</code></li>
+  <li><code>.table-bordered</code></li>
+  <li><code>.table-responsive</code></li>
+</ul>
+
+<hr>
+<h2>10. Alerts</h2>
+<ul>
+  <li><code>.alert</code></li>
+  <li><code>.alert-primary</code></li>
+  <li><code>.alert-success</code></li>
+  <li><code>.alert-danger</code></li>
+</ul>
+
+<hr>
+<h2>11. Modal</h2>
+<ul>
+  <li><code>.modal</code></li>
+  <li><code>.modal-dialog</code></li>
+  <li><code>.modal-content</code></li>
+  <li><code>.modal-header</code></li>
+  <li><code>.modal-body</code></li>
+  <li><code>.modal-footer</code></li>
+</ul>
+
+<hr>
+<h2>12. Offcanvas</h2>
+<ul>
+  <li><code>.offcanvas</code></li>
+  <li><code>.offcanvas-start</code>, <code>.offcanvas-end</code></li>
+  <li><code>.offcanvas-body</code></li>
+</ul>
+
+<hr>
+<h2>13. Utilities Lain</h2>
+<ul>
+  <li>Rounded: <code>.rounded</code>, <code>.rounded-circle</code>, <code>.rounded-pill</code></li>
+  <li>Shadows: <code>.shadow</code>, <code>.shadow-sm</code>, <code>.shadow-lg</code></li>
+  <li>Width/Height: <code>.w-100</code>, <code>.h-100</code>, <code>.w-auto</code></li>
+  <li>Position: <code>.position-relative</code>, <code>.position-absolute</code>, <code>.top-0</code>, <code>.bottom-0</code></li>
+</ul>
+
+<hr>
+<p class="text-center mt-4">Bootstrap Cheatsheet ini sudah versi lengkap. Jika butuh versi PDF atau tambahan lain, beri tahu saya.</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="id">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kuis Ushul Fiqih</title>
+  <script src="/_sdk/data_sdk.js"></script>
+  <script src="/_sdk/element_sdk.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+        body {
+            box-sizing: border-box;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #e3f2fd 0%, #f8f9fa 50%, #fff8e1 100%);
+        }
+        
+        .card-shadow {
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #1976d2 0%, #1565c0 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(25, 118, 210, 0.3);
+        }
+        
+        .progress-bar {
+            background: linear-gradient(90deg, #ffd54f 0%, #ffb74d 100%);
+            transition: width 0.5s ease;
+        }
+        
+        .fade-in {
+            animation: fadeIn 0.5s ease-in;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .slide-transition {
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .islamic-pattern {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23e3f2fd' fill-opacity='0.3'%3E%3Cpath d='M30 30c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20zm0 0c0 11.046 8.954 20 20 20s20-8.954 20-20-8.954-20-20-20-20 8.954-20 20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        }
+    </style>
+  <style>@view-transition { navigation: auto; }</style>
+ </head>
+ <body class="gradient-bg islamic-pattern min-h-full">
+  <div id="app" class="min-h-full"><!-- Halaman Awal -->
+   <div id="home-page" class="min-h-full flex items-center justify-center p-4">
+    <div class="max-w-4xl mx-auto text-center">
+     <div class="bg-white rounded-3xl card-shadow p-8 md:p-12 fade-in"><!-- Ilustrasi SVG -->
+      <div class="mb-8">
+       <svg class="w-32 h-32 mx-auto mb-6" viewbox="0 0 200 200" fill="none"><circle cx="100" cy="100" r="90" fill="#e3f2fd" opacity="0.3" /> <path d="M100 20 L120 60 L160 60 L130 90 L140 130 L100 110 L60 130 L70 90 L40 60 L80 60 Z" fill="#1976d2" /> <circle cx="100" cy="100" r="15" fill="#ffd54f" /> <path d="M85 85 Q100 70 115 85 Q100 100 85 85" fill="#ffb74d" />
+       </svg>
+      </div>
+      <h1 id="judul-utama" class="text-4xl md:text-6xl font-bold text-gray-800 mb-4">Kuis Ushul Fiqih</h1>
+      <h2 id="subjudul-utama" class="text-xl md:text-2xl text-blue-600 mb-6 font-medium">Uji kemampuan Ushul Fiqih-mu</h2>
+      <p id="deskripsi-utama" class="text-gray-600 text-lg mb-8 max-w-2xl mx-auto leading-relaxed">Selamat datang di kuis interaktif Ushul Fiqih! Mari uji pemahamanmu tentang dasar-dasar ilmu fiqih dengan 50 soal yang telah disiapkan khusus untukmu.</p><button onclick="showFormPage()" class="btn-primary text-white px-8 py-4 rounded-2xl text-xl font-semibold inline-flex items-center gap-3"> <span>🚀</span> Mulai Kuis </button>
+     </div>
+    </div>
+   </div><!-- Form Data Peserta -->
+   <div id="form-page" class="min-h-full flex items-center justify-center p-4 hidden">
+    <div class="max-w-2xl mx-auto w-full">
+     <div class="bg-white rounded-3xl card-shadow p-8 fade-in">
+      <div class="text-center mb-8">
+       <h2 class="text-3xl font-bold text-gray-800 mb-4">Data Peserta</h2>
+       <p class="text-gray-600">Lengkapi data diri sebelum memulai kuis</p>
+      </div>
+      <form id="participant-form" class="space-y-6">
+       <div><label for="nama" class="block text-sm font-medium text-gray-700 mb-2">Nama Lengkap *</label> <input type="text" id="nama" name="nama" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+       </div>
+       <div><label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email *</label> <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+       </div>
+       <div><label for="kelas" class="block text-sm font-medium text-gray-700 mb-2">Kelas *</label> <input type="text" id="kelas" name="kelas" required class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+       </div>
+       <div class="bg-blue-50 border border-blue-200 rounded-xl p-4">
+        <p class="text-sm text-blue-800 italic">💡 "Nilai bagus tidak menjadi tolak ukur kesuksesan seseorang, maka jawablah dengan jujur tanpa mencontek."</p>
+       </div>
+       <div id="form-error" class="hidden bg-red-50 border border-red-200 rounded-xl p-4">
+        <p class="text-red-800 text-sm">Mohon lengkapi semua field yang wajib diisi!</p>
+       </div><button type="submit" class="w-full btn-primary text-white py-4 rounded-xl text-lg font-semibold"> Lanjut ke Kuis 📝 </button>
+      </form>
+     </div>
+    </div>
+   </div><!-- Halaman Kuis -->
+   <div id="quiz-page" class="min-h-full p-4 hidden">
+    <div class="max-w-4xl mx-auto"><!-- Progress Bar -->
+     <div class="bg-white rounded-2xl card-shadow p-6 mb-6">
+      <div class="flex justify-between items-center mb-4"><span class="text-sm font-medium text-gray-600">Progress</span> <span id="progress-text" class="text-sm font-medium text-blue-600">1 / 50</span>
+      </div>
+      <div class="w-full bg-gray-200 rounded-full h-3">
+       <div id="progress-bar" class="progress-bar h-3 rounded-full" style="width: 2%"></div>
+      </div>
+     </div><!-- Soal -->
+     <div class="bg-white rounded-3xl card-shadow p-8">
+      <div id="question-container" class="fade-in"><!-- Konten soal akan diisi oleh JavaScript -->
+      </div>
+      <div class="flex justify-between mt-8"><button id="prev-btn" onclick="previousQuestion()" class="px-6 py-3 bg-gray-200 text-gray-700 rounded-xl font-medium hover:bg-gray-300 transition-all disabled:opacity-50 disabled:cursor-not-allowed"> ← Sebelumnya </button> <button id="next-btn" onclick="nextQuestion()" class="px-6 py-3 btn-primary text-white rounded-xl font-medium"> Selanjutnya → </button>
+      </div>
+     </div>
+    </div>
+   </div><!-- Halaman Hasil -->
+   <div id="result-page" class="min-h-full flex items-center justify-center p-4 hidden">
+    <div class="max-w-2xl mx-auto text-center">
+     <div class="bg-white rounded-3xl card-shadow p-8 md:p-12 fade-in">
+      <div class="mb-8">
+       <div class="text-6xl mb-4">
+        🎉
+       </div>
+       <h2 class="text-3xl font-bold text-gray-800 mb-4">Kuis Selesai!</h2>
+      </div>
+      <div class="bg-gradient-to-r from-blue-50 to-yellow-50 rounded-2xl p-6 mb-8">
+       <div class="space-y-3">
+        <div class="flex justify-between"><span class="font-medium text-gray-700">Nama:</span> <span id="result-nama" class="text-gray-800"></span>
+        </div>
+        <div class="flex justify-between"><span class="font-medium text-gray-700">Kelas:</span> <span id="result-kelas" class="text-gray-800"></span>
+        </div>
+       </div>
+      </div>
+      <div class="bg-gradient-to-r from-blue-500 to-blue-600 rounded-2xl p-8 mb-8 text-white">
+       <h3 class="text-xl font-medium mb-2">Nilai Akhir</h3>
+       <div id="final-score" class="text-5xl font-bold">
+        0
+       </div>
+       <div class="text-blue-100 mt-2">
+        dari 100
+       </div>
+      </div>
+      <p class="text-gray-600 text-lg mb-8 leading-relaxed">Terima kasih telah mengikuti Kuis Ushul Fiqih. Terus tingkatkan pemahamanmu! 📚✨</p><button onclick="restartQuiz()" class="btn-primary text-white px-8 py-4 rounded-2xl text-lg font-semibold"> Mulai Lagi 🔄 </button>
+     </div>
+    </div>
+   </div>
+  </div><!-- Footer -->
+  <footer class="text-center py-6 text-gray-600">
+   <p id="footer-text" class="text-sm">Ushul Fiqih | Muhammad Shofiyyulloh</p>
+  </footer>
+  <script>
+        // Data soal kuis
+        const quizData = [
+            // Pilihan Ganda (30 soal)
+            {
+                type: 'multiple',
+                question: 'Apa definisi Ushul Fiqih menurut istilah?',
+                options: [
+                    'Ilmu yang membahas tentang hukum-hukum syariat',
+                    'Kaidah-kaidah yang digunakan untuk menggali hukum syariat dari dalil-dalilnya yang terperinci',
+                    'Ilmu yang membahas tentang hadits Nabi',
+                    'Kaidah-kaidah bahasa Arab'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Siapa yang pertama kali menyusun ilmu Ushul Fiqih?',
+                options: [
+                    'Imam Abu Hanifah',
+                    'Imam Malik',
+                    'Imam Syafi\'i',
+                    'Imam Ahmad'
+                ],
+                correct: 2
+            },
+            {
+                type: 'multiple',
+                question: 'Apa nama kitab pertama yang membahas Ushul Fiqih?',
+                options: [
+                    'Al-Muwatta',
+                    'Al-Risalah',
+                    'Al-Umm',
+                    'Al-Musnad'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Berapa jumlah sumber hukum Islam yang disepakati ulama?',
+                options: [
+                    'Dua',
+                    'Tiga', 
+                    'Empat',
+                    'Lima'
+                ],
+                correct: 2
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Al-Quran menurut Ushul Fiqih?',
+                options: [
+                    'Kitab yang diturunkan kepada Nabi Muhammad',
+                    'Kalam Allah yang diturunkan kepada Nabi Muhammad yang dinukil secara mutawatir',
+                    'Wahyu yang diterima Nabi Muhammad',
+                    'Petunjuk hidup umat Islam'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa syarat utama hadits yang dapat dijadikan hujjah dalam menetapkan hukum?',
+                options: [
+                    'Shahih',
+                    'Hasan',
+                    'Dhaif',
+                    'Maudhu\''
+                ],
+                correct: 0
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Ijma\'?',
+                options: [
+                    'Kesepakatan para ulama mujtahid',
+                    'Pendapat mayoritas ulama',
+                    'Kesepakatan sahabat Nabi',
+                    'Kesepakatan seluruh umat Islam'
+                ],
+                correct: 0
+            },
+            {
+                type: 'multiple',
+                question: 'Qiyas terdiri dari berapa rukun?',
+                options: [
+                    'Tiga',
+                    'Empat',
+                    'Lima',
+                    'Enam'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Asl dalam Qiyas?',
+                options: [
+                    'Masalah yang akan diqiyaskan',
+                    'Masalah yang sudah ada nash hukumnya',
+                    'Alasan hukum',
+                    'Hukum yang ditetapkan'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Far\' dalam Qiyas?',
+                options: [
+                    'Masalah yang sudah ada nash hukumnya',
+                    'Masalah yang akan diqiyaskan',
+                    'Alasan hukum',
+                    'Hukum yang ditetapkan'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Berapa macam pembagian hukum taklifi?',
+                options: [
+                    'Tiga',
+                    'Empat',
+                    'Lima',
+                    'Enam'
+                ],
+                correct: 2
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan hukum Wajib?',
+                options: [
+                    'Sesuatu yang dituntut untuk dikerjakan secara pasti',
+                    'Sesuatu yang dianjurkan untuk dikerjakan',
+                    'Sesuatu yang dibolehkan',
+                    'Sesuatu yang dilarang'
+                ],
+                correct: 0
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan hukum Sunnah?',
+                options: [
+                    'Sesuatu yang wajib dikerjakan',
+                    'Sesuatu yang dianjurkan untuk dikerjakan',
+                    'Sesuatu yang dibolehkan',
+                    'Sesuatu yang dilarang'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan hukum Mubah?',
+                options: [
+                    'Sesuatu yang wajib dikerjakan',
+                    'Sesuatu yang dianjurkan',
+                    'Sesuatu yang dibolehkan, tidak ada pahala dan dosa',
+                    'Sesuatu yang dilarang'
+                ],
+                correct: 2
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan hukum Makruh?',
+                options: [
+                    'Sesuatu yang dilarang keras',
+                    'Sesuatu yang tidak disukai tetapi tidak berdosa jika dikerjakan',
+                    'Sesuatu yang dibolehkan',
+                    'Sesuatu yang dianjurkan'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan hukum Haram?',
+                options: [
+                    'Sesuatu yang tidak disukai',
+                    'Sesuatu yang dilarang secara pasti',
+                    'Sesuatu yang dibolehkan',
+                    'Sesuatu yang dianjurkan'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Berapa macam pembagian hukum wadh\'i?',
+                options: [
+                    'Tiga',
+                    'Empat',
+                    'Lima',
+                    'Enam'
+                ],
+                correct: 2
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Sabab dalam hukum wadh\'i?',
+                options: [
+                    'Sesuatu yang menjadi syarat sahnya hukum',
+                    'Sesuatu yang keberadaannya menunjukkan adanya hukum',
+                    'Sesuatu yang menghalangi berlakunya hukum',
+                    'Sesuatu yang membatalkan hukum'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Syarat dalam hukum wadh\'i?',
+                options: [
+                    'Sesuatu yang keberadaannya menunjukkan adanya hukum',
+                    'Sesuatu yang menjadi syarat sahnya hukum',
+                    'Sesuatu yang menghalangi berlakunya hukum',
+                    'Sesuatu yang membatalkan hukum'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Mani\' dalam hukum wadh\'i?',
+                options: [
+                    'Sesuatu yang menjadi syarat sahnya hukum',
+                    'Sesuatu yang keberadaannya menunjukkan adanya hukum',
+                    'Sesuatu yang menghalangi berlakunya hukum',
+                    'Sesuatu yang membatalkan hukum'
+                ],
+                correct: 2
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Nash?',
+                options: [
+                    'Dalil yang jelas maknanya',
+                    'Dalil yang samar maknanya',
+                    'Dalil yang membutuhkan penafsiran',
+                    'Dalil yang bertentangan'
+                ],
+                correct: 0
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Zhahir?',
+                options: [
+                    'Dalil yang sangat jelas maknanya',
+                    'Dalil yang jelas maknanya tetapi masih mungkin ditakwil',
+                    'Dalil yang samar maknanya',
+                    'Dalil yang bertentangan'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Mujmal?',
+                options: [
+                    'Dalil yang jelas maknanya',
+                    'Dalil yang samar maknanya dan membutuhkan penjelasan',
+                    'Dalil yang bertentangan',
+                    'Dalil yang tidak dapat dipahami'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Mutasyabih?',
+                options: [
+                    'Dalil yang jelas maknanya',
+                    'Dalil yang samar maknanya',
+                    'Dalil yang sangat samar dan sulit dipahami',
+                    'Dalil yang bertentangan'
+                ],
+                correct: 2
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan \'Am?',
+                options: [
+                    'Lafazh yang menunjukkan satu makna',
+                    'Lafazh yang menunjukkan banyak makna secara menyeluruh',
+                    'Lafazh yang menunjukkan makna khusus',
+                    'Lafazh yang samar maknanya'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Khas?',
+                options: [
+                    'Lafazh yang menunjukkan banyak makna',
+                    'Lafazh yang menunjukkan makna tertentu dan terbatas',
+                    'Lafazh yang samar maknanya',
+                    'Lafazh yang bertentangan'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Mutlaq?',
+                options: [
+                    'Lafazh yang dibatasi dengan sifat tertentu',
+                    'Lafazh yang tidak dibatasi dengan sifat apapun',
+                    'Lafazh yang menunjukkan banyak makna',
+                    'Lafazh yang samar maknanya'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Muqayyad?',
+                options: [
+                    'Lafazh yang tidak dibatasi dengan sifat apapun',
+                    'Lafazh yang dibatasi dengan sifat tertentu',
+                    'Lafazh yang menunjukkan banyak makna',
+                    'Lafazh yang samar maknanya'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Amr?',
+                options: [
+                    'Lafazh yang menunjukkan larangan',
+                    'Lafazh yang menunjukkan perintah',
+                    'Lafazh yang menunjukkan pilihan',
+                    'Lafazh yang menunjukkan berita'
+                ],
+                correct: 1
+            },
+            {
+                type: 'multiple',
+                question: 'Apa yang dimaksud dengan Nahi?',
+                options: [
+                    'Lafazh yang menunjukkan perintah',
+                    'Lafazh yang menunjukkan larangan',
+                    'Lafazh yang menunjukkan pilihan',
+                    'Lafazh yang menunjukkan berita'
+                ],
+                correct: 1
+            },
+            
+            // Isian Singkat (20 soal)
+            {
+                type: 'text',
+                question: 'Sebutkan nama lengkap Imam Syafi\'i yang menyusun kitab Ar-Risalah!',
+                answer: 'Muhammad bin Idris asy-Syafi\'i'
+            },
+            {
+                type: 'text',
+                question: 'Apa nama lain dari ilmu Ushul Fiqih?',
+                answer: 'Ushul al-Ahkam'
+            },
+            {
+                type: 'text',
+                question: 'Sebutkan empat sumber hukum Islam yang disepakati ulama!',
+                answer: 'Al-Quran, As-Sunnah, Ijma\', Qiyas'
+            },
+            {
+                type: 'text',
+                question: 'Apa yang dimaksud dengan hadits Mutawatir?',
+                answer: 'Hadits yang diriwayatkan oleh banyak perawi yang tidak mungkin bersepakat untuk berdusta'
+            },
+            {
+                type: 'text',
+                question: 'Sebutkan tiga syarat sahnya Ijma\'!',
+                answer: 'Kesepakatan seluruh mujtahid, dalam satu masa, tentang hukum syariat'
+            },
+            {
+                type: 'text',
+                question: 'Apa yang dimaksud dengan \'Illat dalam Qiyas?',
+                answer: 'Sifat atau alasan yang menjadi dasar penetapan hukum'
+            },
+            {
+                type: 'text',
+                question: 'Sebutkan lima macam hukum taklifi!',
+                answer: 'Wajib, Sunnah, Mubah, Makruh, Haram'
+            },
+            {
+                type: 'text',
+                question: 'Apa perbedaan antara Fardhu \'Ain dan Fardhu Kifayah?',
+                answer: 'Fardhu \'Ain wajib bagi setiap individu, Fardhu Kifayah cukup dikerjakan sebagian orang'
+            },
+            {
+                type: 'text',
+                question: 'Sebutkan lima macam hukum wadh\'i!',
+                answer: 'Sabab, Syarat, Mani\', Shahih, Fasid'
+            },
+            {
+                type: 'text',
+                question: 'Apa yang dimaksud dengan Takhsis?',
+                answer: 'Mengeluarkan sebagian dari lafazh \'Am dengan dalil khusus'
+            },
+            {
+                type: 'text',
+                question: 'Apa yang dimaksud dengan Taqyid?',
+                answer: 'Membatasi lafazh Mutlaq dengan sifat tertentu'
+            },
+            {
+                type: 'text',
+                question: 'Sebutkan tiga macam Amr berdasarkan waktunya!',
+                answer: 'Amr Fawri (segera), Amr Takhyiri (pilihan waktu), Amr Muwaqqat (terbatas waktu)'
+            },
+            {
+                type: 'text',
+                question: 'Apa yang dimaksud dengan Nasikh dan Mansukh?',
+                answer: 'Nasikh adalah dalil yang menghapus, Mansukh adalah dalil yang dihapus'
+            },
+            {
+                type: 'text',
+                question: 'Sebutkan tiga syarat terjadinya Naskh!',
+                answer: 'Ada dalil yang menghapus, ada dalil yang dihapus, dalil penghapus datang kemudian'
+            },
+            {
+                type: 'text',
+                question: 'Apa yang dimaksud dengan Istihsan?',
+                answer: 'Meninggalkan qiyas jali karena ada dalil yang lebih kuat'
+            },
+            {
+                type: 'text',
+                question: 'Apa yang dimaksud dengan Maslahah Mursalah?',
+                answer: 'Kemaslahatan yang tidak ada dalil khusus yang mendukung atau menolaknya'
+            },
+            {
+                type: 'text',
+                question: 'Sebutkan tiga tingkatan Maslahah!',
+                answer: 'Dharuriyyat (primer), Hajiyyat (sekunder), Tahsiniyyat (tersier)'
+            },
+            {
+                type: 'text',
+                question: 'Apa yang dimaksud dengan \'Urf?',
+                answer: 'Kebiasaan yang berlaku di masyarakat dan tidak bertentangan dengan syariat'
+            },
+            {
+                type: 'text',
+                question: 'Sebutkan dua macam \'Urf!',
+                answer: '\'Urf Shahih (sesuai syariat) dan \'Urf Fasid (bertentangan syariat)'
+            },
+            {
+                type: 'text',
+                question: 'Apa yang dimaksud dengan Sadd adz-Dzari\'ah?',
+                answer: 'Menutup jalan yang menuju kepada kerusakan atau kemudharatan'
+            }
+        ];
+
+        // State management
+        let currentQuestionIndex = 0;
+        let userAnswers = [];
+        let participantData = {};
+        let isLoading = false;
+
+        // Config untuk Element SDK
+        const defaultConfig = {
+            judul_kuis: "Kuis Ushul Fiqih",
+            subjudul: "Uji kemampuan Ushul Fiqih-mu",
+            deskripsi: "Selamat datang di kuis interaktif Ushul Fiqih! Mari uji pemahamanmu tentang dasar-dasar ilmu fiqih dengan 50 soal yang telah disiapkan khusus untukmu.",
+            footer_text: "Ushul Fiqih | Muhammad Shofiyyulloh",
+            background_color: "#e3f2fd",
+            primary_color: "#1976d2",
+            accent_color: "#ffd54f",
+            text_color: "#374151",
+            surface_color: "#ffffff",
+            font_family: "Inter",
+            font_size: 16
+        };
+
+        // Data handler untuk Data SDK
+        const dataHandler = {
+            onDataChanged(data) {
+                // Update UI jika diperlukan
+                console.log('Data updated:', data.length, 'records');
+            }
+        };
+
+        // Initialize SDKs
+        async function initializeSDKs() {
+            try {
+                if (window.dataSdk) {
+                    const initResult = await window.dataSdk.init(dataHandler);
+                    if (!initResult.isOk) {
+                        console.error('Failed to initialize Data SDK');
+                    }
+                }
+
+                if (window.elementSdk) {
+                    await window.elementSdk.init({
+                        defaultConfig,
+                        onConfigChange: async (config) => {
+                            updateUIFromConfig(config);
+                        },
+                        mapToCapabilities: (config) => ({
+                            recolorables: [
+                                {
+                                    get: () => config.background_color || defaultConfig.background_color,
+                                    set: (value) => {
+                                        config.background_color = value;
+                                        window.elementSdk.setConfig({ background_color: value });
+                                    }
+                                },
+                                {
+                                    get: () => config.primary_color || defaultConfig.primary_color,
+                                    set: (value) => {
+                                        config.primary_color = value;
+                                        window.elementSdk.setConfig({ primary_color: value });
+                                    }
+                                },
+                                {
+                                    get: () => config.accent_color || defaultConfig.accent_color,
+                                    set: (value) => {
+                                        config.accent_color = value;
+                                        window.elementSdk.setConfig({ accent_color: value });
+                                    }
+                                },
+                                {
+                                    get: () => config.text_color || defaultConfig.text_color,
+                                    set: (value) => {
+                                        config.text_color = value;
+                                        window.elementSdk.setConfig({ text_color: value });
+                                    }
+                                },
+                                {
+                                    get: () => config.surface_color || defaultConfig.surface_color,
+                                    set: (value) => {
+                                        config.surface_color = value;
+                                        window.elementSdk.setConfig({ surface_color: value });
+                                    }
+                                }
+                            ],
+                            borderables: [],
+                            fontEditable: {
+                                get: () => config.font_family || defaultConfig.font_family,
+                                set: (value) => {
+                                    config.font_family = value;
+                                    window.elementSdk.setConfig({ font_family: value });
+                                }
+                            },
+                            fontSizeable: {
+                                get: () => config.font_size || defaultConfig.font_size,
+                                set: (value) => {
+                                    config.font_size = value;
+                                    window.elementSdk.setConfig({ font_size: value });
+                                }
+                            }
+                        }),
+                        mapToEditPanelValues: (config) => new Map([
+                            ["judul_kuis", config.judul_kuis || defaultConfig.judul_kuis],
+                            ["subjudul", config.subjudul || defaultConfig.subjudul],
+                            ["deskripsi", config.deskripsi || defaultConfig.deskripsi],
+                            ["footer_text", config.footer_text || defaultConfig.footer_text]
+                        ])
+                    });
+                }
+            } catch (error) {
+                console.error('SDK initialization error:', error);
+            }
+        }
+
+        function updateUIFromConfig(config) {
+            const baseSize = config.font_size || defaultConfig.font_size;
+            const customFont = config.font_family || defaultConfig.font_family;
+            const baseFontStack = 'system-ui, -apple-system, sans-serif';
+
+            // Update text content
+            const judulElement = document.getElementById('judul-utama');
+            if (judulElement) {
+                judulElement.textContent = config.judul_kuis || defaultConfig.judul_kuis;
+                judulElement.style.fontFamily = `${customFont}, ${baseFontStack}`;
+                judulElement.style.fontSize = `${baseSize * 2.5}px`;
+                judulElement.style.color = config.text_color || defaultConfig.text_color;
+            }
+
+            const subjudulElement = document.getElementById('subjudul-utama');
+            if (subjudulElement) {
+                subjudulElement.textContent = config.subjudul || defaultConfig.subjudul;
+                subjudulElement.style.fontFamily = `${customFont}, ${baseFontStack}`;
+                subjudulElement.style.fontSize = `${baseSize * 1.25}px`;
+                subjudulElement.style.color = config.primary_color || defaultConfig.primary_color;
+            }
+
+            const deskripsiElement = document.getElementById('deskripsi-utama');
+            if (deskripsiElement) {
+                deskripsiElement.textContent = config.deskripsi || defaultConfig.deskripsi;
+                deskripsiElement.style.fontFamily = `${customFont}, ${baseFontStack}`;
+                deskripsiElement.style.fontSize = `${baseSize}px`;
+            }
+
+            const footerElement = document.getElementById('footer-text');
+            if (footerElement) {
+                footerElement.textContent = config.footer_text || defaultConfig.footer_text;
+                footerElement.style.fontFamily = `${customFont}, ${baseFontStack}`;
+                footerElement.style.fontSize = `${baseSize * 0.875}px`;
+            }
+
+            // Update colors
+            document.body.style.background = `linear-gradient(135deg, ${config.background_color || defaultConfig.background_color} 0%, #f8f9fa 50%, ${config.accent_color || defaultConfig.accent_color}20 100%)`;
+            
+            // Update button colors
+            const buttons = document.querySelectorAll('.btn-primary');
+            buttons.forEach(btn => {
+                btn.style.background = `linear-gradient(135deg, ${config.primary_color || defaultConfig.primary_color} 0%, ${config.primary_color || defaultConfig.primary_color}dd 100%)`;
+            });
+
+            // Update surface colors
+            const surfaces = document.querySelectorAll('.bg-white');
+            surfaces.forEach(surface => {
+                surface.style.backgroundColor = config.surface_color || defaultConfig.surface_color;
+            });
+        }
+
+        // Navigation functions
+        function showFormPage() {
+            document.getElementById('home-page').classList.add('hidden');
+            document.getElementById('form-page').classList.remove('hidden');
+        }
+
+        function showQuizPage() {
+            document.getElementById('form-page').classList.add('hidden');
+            document.getElementById('quiz-page').classList.remove('hidden');
+            displayQuestion();
+        }
+
+        function showResultPage() {
+            document.getElementById('quiz-page').classList.add('hidden');
+            document.getElementById('result-page').classList.remove('hidden');
+            displayResults();
+        }
+
+        // Form handling
+        document.getElementById('participant-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const nama = document.getElementById('nama').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const kelas = document.getElementById('kelas').value.trim();
+            
+            if (!nama || !email || !kelas) {
+                document.getElementById('form-error').classList.remove('hidden');
+                return;
+            }
+            
+            document.getElementById('form-error').classList.add('hidden');
+            
+            participantData = { nama, email, kelas };
+            userAnswers = new Array(quizData.length).fill('');
+            currentQuestionIndex = 0;
+            
+            showQuizPage();
+        });
+
+        // Quiz functions
+        function displayQuestion() {
+            const question = quizData[currentQuestionIndex];
+            const container = document.getElementById('question-container');
+            
+            let html = `
+                <div class="mb-6">
+                    <h3 class="text-2xl font-bold text-gray-800 mb-4">
+                        Soal ${currentQuestionIndex + 1}
+                    </h3>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        ${question.question}
+                    </p>
+                </div>
+            `;
+            
+            if (question.type === 'multiple') {
+                html += '<div class="space-y-3">';
+                question.options.forEach((option, index) => {
+                    const isChecked = userAnswers[currentQuestionIndex] == index ? 'checked' : '';
+                    html += `
+                        <label class="flex items-center p-4 border border-gray-200 rounded-xl hover:bg-blue-50 cursor-pointer transition-all">
+                            <input type="radio" name="answer" value="${index}" ${isChecked} 
+                                   class="mr-4 w-5 h-5 text-blue-600">
+                            <span class="text-gray-700">${option}</span>
+                        </label>
+                    `;
+                });
+                html += '</div>';
+            } else {
+                const currentAnswer = userAnswers[currentQuestionIndex] || '';
+                html += `
+                    <div>
+                        <input type="text" id="text-answer" value="${currentAnswer}" 
+                               placeholder="Ketik jawaban Anda di sini..." 
+                               class="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all">
+                    </div>
+                `;
+            }
+            
+            container.innerHTML = html;
+            
+            // Update progress
+            const progress = ((currentQuestionIndex + 1) / quizData.length) * 100;
+            document.getElementById('progress-bar').style.width = progress + '%';
+            document.getElementById('progress-text').textContent = `${currentQuestionIndex + 1} / ${quizData.length}`;
+            
+            // Update navigation buttons
+            document.getElementById('prev-btn').disabled = currentQuestionIndex === 0;
+            
+            const nextBtn = document.getElementById('next-btn');
+            if (currentQuestionIndex === quizData.length - 1) {
+                nextBtn.textContent = 'Selesai 🎯';
+            } else {
+                nextBtn.textContent = 'Selanjutnya →';
+            }
+        }
+
+        function saveCurrentAnswer() {
+            const question = quizData[currentQuestionIndex];
+            
+            if (question.type === 'multiple') {
+                const selected = document.querySelector('input[name="answer"]:checked');
+                if (selected) {
+                    userAnswers[currentQuestionIndex] = parseInt(selected.value);
+                }
+            } else {
+                const textAnswer = document.getElementById('text-answer');
+                if (textAnswer) {
+                    userAnswers[currentQuestionIndex] = textAnswer.value.trim();
+                }
+            }
+        }
+
+        function nextQuestion() {
+            saveCurrentAnswer();
+            
+            if (currentQuestionIndex < quizData.length - 1) {
+                currentQuestionIndex++;
+                displayQuestion();
+            } else {
+                finishQuiz();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestionIndex > 0) {
+                saveCurrentAnswer();
+                currentQuestionIndex--;
+                displayQuestion();
+            }
+        }
+
+        async function finishQuiz() {
+            if (isLoading) return;
+            
+            // Check if all questions are answered
+            for (let i = 0; i < quizData.length; i++) {
+                if (userAnswers[i] === '' || userAnswers[i] === undefined) {
+                    alert('Mohon jawab semua soal sebelum menyelesaikan kuis!');
+                    return;
+                }
+            }
+            
+            isLoading = true;
+            const nextBtn = document.getElementById('next-btn');
+            nextBtn.textContent = 'Memproses...';
+            nextBtn.disabled = true;
+            
+            // Calculate score
+            let correctAnswers = 0;
+            
+            for (let i = 0; i < quizData.length; i++) {
+                const question = quizData[i];
+                const userAnswer = userAnswers[i];
+                
+                if (question.type === 'multiple') {
+                    if (userAnswer === question.correct) {
+                        correctAnswers++;
+                    }
+                } else {
+                    // For text answers, simple string comparison (case insensitive)
+                    const correctAnswer = question.answer.toLowerCase().trim();
+                    const userAnswerText = userAnswer.toLowerCase().trim();
+                    
+                    if (userAnswerText === correctAnswer || 
+                        correctAnswer.includes(userAnswerText) || 
+                        userAnswerText.includes(correctAnswer)) {
+                        correctAnswers++;
+                    }
+                }
+            }
+            
+            const finalScore = Math.round((correctAnswers / quizData.length) * 100);
+            
+            // Save to Data SDK
+            try {
+                if (window.dataSdk) {
+                    const result = await window.dataSdk.create({
+                        nama: participantData.nama,
+                        email: participantData.email,
+                        kelas: participantData.kelas,
+                        jawaban: JSON.stringify(userAnswers),
+                        nilai: finalScore,
+                        tanggal: new Date().toISOString()
+                    });
+                    
+                    if (!result.isOk) {
+                        console.error('Failed to save quiz result');
+                    }
+                }
+            } catch (error) {
+                console.error('Error saving quiz result:', error);
+            }
+            
+            // Store results for display
+            participantData.finalScore = finalScore;
+            
+            isLoading = false;
+            showResultPage();
+        }
+
+        function displayResults() {
+            document.getElementById('result-nama').textContent = participantData.nama;
+            document.getElementById('result-kelas').textContent = participantData.kelas;
+            document.getElementById('final-score').textContent = participantData.finalScore;
+        }
+
+        function restartQuiz() {
+            currentQuestionIndex = 0;
+            userAnswers = [];
+            participantData = {};
+            
+            document.getElementById('result-page').classList.add('hidden');
+            document.getElementById('home-page').classList.remove('hidden');
+            
+            // Reset form
+            document.getElementById('participant-form').reset();
+            document.getElementById('form-error').classList.add('hidden');
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeSDKs();
+        });
+    </script>
+ <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'99fd6c56b0ef25fd',t:'MTc2MzM2MzU4Mi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>

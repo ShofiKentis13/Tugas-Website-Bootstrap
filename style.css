@@ -1,0 +1,105 @@
+* {
+    font-family: 'Exo 2';
+    color: #ffffd0;
+}
+
+body {
+    background-color: #ffffd0;
+}
+
+:root {
+    --bs-danger:#335883;
+}
+
+.jeneng {
+    text-decoration: none;
+    color: #ffffd0;
+}
+
+.jeneng:hover {
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #ffffd0 !important;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.nav-link:hover {
+    transform: scale(1.1);
+}
+
+.nav-link {
+    color: #ffffd0 !important;
+}
+
+#ppp {
+    text-align: justify;
+}
+
+.alinea {
+    display: block;
+    text-indent: 2rem;
+}
+
+.go {
+    background-color: #ffffd0;
+    color: #335883;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-decoration: none !important;
+    padding: 5px 15px 5px 15px;
+}
+
+
+
+.go:hover {
+    transform: scale(1.1);
+}
+
+.flex-fill.yo:hover {
+    transform: scale(1.1);
+}
+
+/* daftar isi */
+ol li {
+    background-color: #ffffd0;
+}
+
+.materi {
+    width: 80px;
+    height: 80px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffd0;
+    color: white;
+    border: none;
+}
+
+.tbl {
+    background-color: #ffffd0 !important;
+    color: #335883 !important;
+}
+
+.tbl:hover {
+    transform: scale(1.1);
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* materi */
+ol.mtr  li {
+    background-color: #335883 !important;
+}
+
+ol.mtr2  li {
+    background-color: #335883 !important;
+    font-weight: bold;
+}
